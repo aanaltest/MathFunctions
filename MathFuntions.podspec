@@ -1,0 +1,17 @@
+Pod::Spec.new do |s|
+
+  s.name         = 'MathFuntions'
+  s.version      = '0.0.1'
+  s.summary      = 'Math functions xcframework'
+  s.description  =  <<-DESC
+Math functions xcframework
+	DESC
+  s.homepage     = 'https://github.com/aanaltest/MathFunctions'
+  s.authors      = { 'aanaltest' => 'aanal.photos18@gmail.com' }
+  s.license      = 'MIT'
+  s.platform	    = :ios, '13.0'
+  s.source       = { :git => 'https://github.com/aanaltest/MathFunctions.git', :tag => s.version }
+  s.vendored_frameworks    = 'MathFuntions.xcframework'
+  s.swift_version = '5.0'
+
+end
