@@ -11,6 +11,8 @@ import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers public class MathFunctions : ObjectiveC.NSObject {
   public func sum(a: Swift.Int, b: Swift.Int) -> Swift.Int
   public func sub(a: Swift.Int, b: Swift.Int) -> Swift.Int
+  public func div(a: Swift.Int, b: Swift.Int) -> Swift.Int
+  public func mul(a: Swift.Int, b: Swift.Int) -> Swift.Int
   @objc override dynamic public init()
   @objc deinit
 }
