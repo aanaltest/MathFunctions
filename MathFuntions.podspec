@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = 'MathFuntions'
+  s.name         = 'MathFunctions'
   s.version      = '0.0.1'
   s.summary      = 'Math functions xcframework'
   s.description  =  <<-DESC
@@ -11,7 +11,7 @@ Math functions xcframework
   s.license      = 'MIT'
   s.platform	    = :ios, '13.0'
   s.source       = { :git => 'https://github.com/aanaltest/MathFunctions.git', :tag => s.version }
-  s.vendored_frameworks    = 'MathFuntions.xcframework'
+  s.vendored_frameworks    = 'MathFunctions.xcframework'
   s.swift_version = '5.0'
 
 end
