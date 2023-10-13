@@ -15,6 +15,7 @@ Math functions xcframework
   s.swift_version = '5.0'
 
   s.dependency 'Logger_A'
+  s.dependency 'FruitName_A'
 
   #s.framework      = 'Logger'
 
