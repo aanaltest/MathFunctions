@@ -14,7 +14,7 @@ Math functions xcframework
   s.vendored_frameworks    = 'MathFunctions.xcframework'
   s.swift_version = '5.0'
 
-  s.dependencies = 'Logger_A'
+  s.dependency 'Logger_A'
 
   #s.framework      = 'Logger'
 
