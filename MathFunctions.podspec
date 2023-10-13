@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'MathFunctions'
-  s.version      = '0.0.2'
+  s.version      = '0.0.3'
   s.summary      = 'Math functions xcframework'
   s.description  =  <<-DESC
 Math functions xcframework
@@ -13,5 +13,10 @@ Math functions xcframework
   s.source       = { :git => 'https://github.com/aanaltest/MathFunctions.git', :tag => s.version }
   s.vendored_frameworks    = 'MathFunctions.xcframework'
   s.swift_version = '5.0'
+
+
+  #s.dependency = 'Logger'
+  #s.framework      = 'Logger'
+
 
 end
