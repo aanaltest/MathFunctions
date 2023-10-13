@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/FruitName_A.framework/FruitName_A</key>
+		<data>
+		DfiJ/NHobCAKfQDl8C/DF5qOzj4=
+		</data>
+		<key>Frameworks/FruitName_A.framework/Info.plist</key>
+		<data>
+		fIlz0MNQtkfKVlavHE1ljguxQnA=
+		</data>
+		<key>Frameworks/FruitName_A.framework/_CodeSignature/CodeResources</key>
+		<data>
+		7VatTbMDkr+NM3fah8rAtxtktQY=
+		</data>
 		<key>Headers/MathFunctions-Swift.h</key>
 		<data>
 		nOememLbgwKZTHSJDdTVE5vs7dI=
@@ -63,6 +75,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/FruitName_A.framework/FruitName_A</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iA7Y1P3N6E2d7v8RCBX5sv0LKoSYmr+9pQBOBUaz5N0=
+			</data>
+		</dict>
+		<key>Frameworks/FruitName_A.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lwkYtb3lZ9Pxr4S9iIRJ/NOc8aNc6hpGhcWf+C2jMz8=
+			</data>
+		</dict>
+		<key>Frameworks/FruitName_A.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DH1ofY0xOfR69+27GWCMVCIufzbMLXS30o6TlJu4mAE=
+			</data>
+		</dict>
 		<key>Headers/MathFunctions-Swift.h</key>
 		<dict>
 			<key>hash2</key>
