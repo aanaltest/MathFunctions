@@ -29,10 +29,43 @@
         "moduleName": "MathFunctions"
       },
       {
+        "kind": "Import",
+        "name": "Greet_A",
+        "printedName": "Greet_A",
+        "declKind": "Import",
+        "moduleName": "MathFunctions"
+      },
+      {
         "kind": "TypeDecl",
         "name": "MathFunctions",
         "printedName": "MathFunctions",
         "children": [
+          {
+            "kind": "Function",
+            "name": "greet_math",
+            "printedName": "greet_math(user:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MathFunctionsAAC10greet_math4userySS_tF",
+            "mangledName": "$s13MathFunctionsAAC10greet_math4userySS_tF",
+            "moduleName": "MathFunctions",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "sum",
@@ -264,14 +297,14 @@
     {
       "filePath": "\/Users\/sapphire\/Desktop\/MathFunctions\/MathFunctions\/MathFunctions.swift",
       "kind": "StringLiteral",
-      "offset": 260,
+      "offset": 395,
       "length": 13,
       "value": "\"testing sum\""
     },
     {
       "filePath": "\/Users\/sapphire\/Desktop\/MathFunctions\/MathFunctions\/MathFunctions.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 560,
       "length": 7,
       "value": "\"Apple\""
     }

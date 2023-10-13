@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import FruitName_A
+import Greet_A
 import Logger
 @_exported import MathFunctions
 import Swift
@@ -11,6 +12,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers public class MathFunctions : ObjectiveC.NSObject {
+  public func greet_math(user: Swift.String)
   public func sum(a: Swift.Int, b: Swift.Int) -> Swift.Int
   public func sub(a: Swift.Int, b: Swift.Int) -> Swift.Int
   public func div(a: Swift.Int, b: Swift.Int) -> Swift.Int
