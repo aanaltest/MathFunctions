@@ -15,7 +15,7 @@ Math functions xcframework
   s.swift_version = '5.0'
 
 
-  #s.dependency = 'Logger'
+  s.dependency = 'Logger_A'
   #s.framework      = 'Logger'
 
 
