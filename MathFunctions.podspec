@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'MathFunctions'
-  s.version      = '0.0.7'
+  s.version      = '0.0.8'
   s.summary      = 'Math functions xcframework'
   s.description  =  <<-DESC
 Math functions xcframework
@@ -16,8 +16,9 @@ Math functions xcframework
 
   s.dependency 'Logger_A'
   s.dependency 'FruitName_A'
+  s.dependency :spm => 'https://github.com/aanaltest/Greet_A.git'
 
-  #s.framework      = 'Logger'
+  #s.deprecated = true
 
 
 end
